@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Database1DataSet3" targetNamespace="http://tempuri.org/Database1DataSet3.xsd" xmlns:mstns="http://tempuri.org/Database1DataSet3.xsd" xmlns="http://tempuri.org/Database1DataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Database1ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="Database1ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.HealParser.Properties.Settings.GlobalReference.Default.Database1ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TableTableAdapter" GeneratorDataComponentClassName="TableTableAdapter" Name="Table" UserDataComponentName="TableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Database1ConnectionString (Settings)" DbObjectName="dbo.[Table]" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT SpellName, SpellCastCount FROM dbo.[Table]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SpellName" DataSetColumn="SpellName" />
+              <Mapping SourceColumn="SpellCastCount" DataSetColumn="SpellCastCount" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Database1DataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Database1DataSet3" msprop:Generator_UserDSName="Database1DataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_TablePropName="Table" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_RowClassName="TableRow" msprop:Generator_UserTableName="Table" msprop:Generator_RowEvArgName="TableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SpellName" msprop:Generator_ColumnVarNameInTable="columnSpellName" msprop:Generator_ColumnPropNameInRow="SpellName" msprop:Generator_ColumnPropNameInTable="SpellNameColumn" msprop:Generator_UserColumnName="SpellName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SpellCastCount" msprop:Generator_ColumnVarNameInTable="columnSpellCastCount" msprop:Generator_ColumnPropNameInRow="SpellCastCount" msprop:Generator_ColumnPropNameInTable="SpellCastCountColumn" msprop:Generator_UserColumnName="SpellCastCount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

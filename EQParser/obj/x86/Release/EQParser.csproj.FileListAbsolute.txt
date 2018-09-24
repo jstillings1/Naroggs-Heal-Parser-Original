@@ -1,0 +1,12 @@
+C:\eq parser\EQParser\EQParser\obj\x86\Release\EQParser.AlertForm.resources
+C:\eq parser\EQParser\EQParser\obj\x86\Release\EQParser.Form1.resources
+C:\eq parser\EQParser\EQParser\obj\x86\Release\EQParser.Properties.Resources.resources
+C:\eq parser\EQParser\EQParser\obj\x86\Release\EQParser.Stats.resources
+C:\eq parser\EQParser\EQParser\obj\x86\Release\EQParser.csproj.GenerateResource.Cache
+C:\eq parser\EQParser\EQParser\bin\Release\Database1.mdf
+C:\eq parser\EQParser\EQParser\bin\Release\Database1_log.ldf
+C:\eq parser\EQParser\EQParser\bin\Release\WindowsApplication.exe.config
+C:\eq parser\EQParser\EQParser\bin\Release\WindowsApplication.exe
+C:\eq parser\EQParser\EQParser\bin\Release\WindowsApplication.pdb
+C:\eq parser\EQParser\EQParser\obj\x86\Release\WindowsApplication.exe
+C:\eq parser\EQParser\EQParser\obj\x86\Release\WindowsApplication.pdb
